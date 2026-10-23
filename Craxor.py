@@ -69,7 +69,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 KEY_FILE = SCRIPT_DIR / "craxor_key.txt"
 
 # >>> Your API key. Environment variables and craxor_key.txt take priority over this line. <<<
-EMBEDDED_KEY = "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"
+EMBEDDED_KEY = ""
 
 
 def read_key_file() -> str:
